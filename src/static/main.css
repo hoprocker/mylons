@@ -1,0 +1,53 @@
+/*
+ * base global CSS
+ */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+a,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0 0 .5em 0;
+	font-family: Helvetica, sans-serif;
+}
+img { border: 0; }
+p { margin: 0 0 1em 0; }
+table {
+    border: 0;
+    border-collapse: collapse;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+ul li {
+    margin-bottom: .5em;
+}
+p.error,
+p.message {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 0 !important;
+}
+p.error { color: #B51E1E; }
+p.message { color: #83A300; }
+
+.disabled,
+a.disabled,
+a.disabled:hover,
+a.disabled:visited,
+a.disabled:active {
+	color: #999;
+    cursor: default;
+}

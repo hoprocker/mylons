@@ -1,0 +1,6 @@
+*.pyc
+*.swp
+*mysql.cnf
+*/conf/*
+__error*
+*/static/creatives/*

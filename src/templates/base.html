@@ -1,0 +1,19 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+<title>admin{% block titlextra %}{% endblock %}</title>
+<link href="/static/main.css" rel="stylesheet" />
+<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="/static/functional.min.js"></script>
+<script type="text/javascript" src="/static/site.js"></script>
+<script type="text/javascript">
+{% block script %}{%endblock%}
+</script>
+</head>
+
+<body>
+		{% block mainpane %}
+		{% endblock %}
+</body>
+
+</html>
