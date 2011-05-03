@@ -7,8 +7,9 @@ PATH : the part after '/admin/', the base path
 ROUTES : route->name,controller[,method] mappings
 """
 
+GENERIC_TEMPLATE = "generic.html"
 def main(**kwargs):
-    return redirect(url_for("an_clicks"))
+    return render_template(GENERIC_TEMPLATE)
 
 """
 TODO : 
