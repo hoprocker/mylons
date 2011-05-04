@@ -12,11 +12,21 @@ There are many miniframeworks out there, but none that are exactly like I want t
 * SQLAlchemy
 
 ## Getting started
-To begin, clone this project
+To begin, install virtualenv:
+
+> sudo easy_install virtualenv
+
+Then clone this project:
 
 > mkdir mylons
+>
 > git clone --depth 1 --recursive git://github.com/hoprocker/mylons.git mylons
+>
 > cd mylons
+>
 > python ./setup.py
 
+Now
+
+## further steps
 This is a work in progress, more later.

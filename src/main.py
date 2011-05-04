@@ -3,7 +3,7 @@ from flask import Flask,request,session,redirect,url_for,render_template,g
 from util import MessageUtil
 from config import *
 
-import actions GenericAction as GA
+import actions.GenericAction as GA
 
 app = Flask(__name__, "/static")
 app.config.from_pyfile('config.py')
